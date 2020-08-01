@@ -225,6 +225,9 @@ I try to call out the most relevant files containing FTP midi information here.
 
 ### [../arduino/teensyExpression/ftp_defs.h](../arduino/teensyExpression/ftp_defs.h)
 
+**This is probably the most important and relevant file for FTP midi
+information, in my system, at this time!!**
+
 This file contains the basic C++ data structures for a patch, as well as comments
 and constants describing a variety of what I call 1F/3F command and reply
 messages that I have ferreted out.
@@ -265,7 +268,6 @@ and/or tested, and/or which I use to effect things in the teensyExpression progr
 For instance, I was able to implement the "string sensitivity settings"
 in [winFTPSensitivity.h](../arduino/teensyExpression/winFTPSensitivity.h) and
 [winFTPSensitivity.cpp](../arduino/teensyExpression/winFTPSensitivity.cpp)
-
 as well as a guitar tuner based on the FTP, largely based on the information
 available in this H file.
 

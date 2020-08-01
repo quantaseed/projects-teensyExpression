@@ -112,7 +112,7 @@ subfolders of this repository
     * [arduino/libraries](arduino/libraries/readme.md) - mine, and a couple other libraries used in the build
     * [arduino/teensyExpression](arduino/teensyExpression/readme.md) - the main INO program and additional classes that are specific to the project
 * [fusion/](fusion/readme.md) - contains the STL, fusion 360 files, and notes on how to print and assemble the box
-* [design/](design/readme.md) - contains various design documents, schematics and images relevant to the build
+* [hardware/](hardware/readme.md) - contains the basic schematic, circuit diagrams, and information about the electronics hardware design
 * [ftp/](ftp/readme.md) - contains separate discussions and documents regarding my reverse engineering efforts on the FTP Triple play dongle and controller
 
 
