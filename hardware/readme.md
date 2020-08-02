@@ -41,13 +41,11 @@ and/or circuit boards for the four **rotary countrollers**,
 the **USB port and amp-meter**, the **serial port connector**, and, finally,
 the back panel with it's **four expression pedal 1/4" stereo jack inputs**.
 
-I have not made a real **schematic** for this project.  But the diagrams below,
-of the motherboard, sub-assemblies, and connectors, along with the C++ source
-code in ../arduino/teensyExpression which also specifies the teensy pinouts,
-should be sufficient for any interested part to reconstruct this project.
-I *may* yet create a schematic for this, although I am as likely to start another
-whole box, this time based on a teensy 4.1, which is faster and more powerful
-than the teensy 3.6.
+There is a general overall sybolic schematic for this project.
+You can click on the image below to see the PDF file.
+
+[![teensyExpression_schematic](teensyExpression_schematic.jpg)](teensyExpression_schematic.pdf)
+
 
 
 ## LED/Switch Array
@@ -176,7 +174,7 @@ These power meters are available on Ebay for about $7.
 *click on the image to go to ebay*
 
 I merely desoldered the USB connectors, and connected the ground and 5V from
-the main input USB type A port to it, and ran it back to the micro-usb connnector
+the main input USB typeB port to it, and ran it back to the micro-usb connnector
 that connects to the teensy.
 
 [![amp meter and usb board sub-circuit](../images/teensyExpression14_resized.jpg)](../images/teensyExpression14.jpg)
@@ -186,7 +184,7 @@ on ebay, at 10 for $5.79 (about 60 cents each)
 
 [![micro_usb_connector.jpg](micro_usb_connector.jpg)](https://www.ebay.com/itm/10X-Micro-Usb-5-Pin-Male-Plug-Socket-Connector-Right-Angle-Long-Head-Cover-Tail/201390419549)
 
-And I needed the female Type A connector as well (probably around $1 on ebay).
+And I needed the female TypeB connector as well (probably around $1 on ebay).
 
 What made this step considerably more fun, and easy, was the purchase of some
 prewired headers and sockets for 2.54mm circuit boards.  I got 10 of em for
@@ -196,20 +194,19 @@ from scratch!
 
 [![wired_4pin_connectors.jpg](wired_4pin_connectors.jpg)](https://www.ebay.com/itm/10-Sets-4-Pin-Micro-JST-XH-2-54mm-24AWG-Connector-Plug-With-Wire-Cables/264781666854)
 
-Once again, I did not make a schematic of the little circuit board itself.
-I do know that it is approximately 24x38 mm, and the Type-A USB connector
+The circuit board  is approximately 24x38 mm, and the typeB USB connector
 projects about 3mm through the back of the box.
 
-But it's really simple.  Basically it connects the Type-A female usb port ground and 5V
+But it's really simple.  Basically it connects the typeB female usb port ground and 5V
 to an outgoing pair on the connector that goes to the power meter, and the incoming pair
 that comes back and is connected to the ground and 5V pins on the outgoing (to
 the teensy) micro-usb connector.
 
 [![usb_port_board.jpg](usb_port_board_resized.jpg)](usb_port_board.jpg)
 
-The D- and D+ pins from the TypeA connector are wired directly to the
+The D- and D+ pins from the typeB connector are wired directly to the
 output connector, and I added a jumper so that, if I want, I can remove
-the USB meter and jumper the 5V and ground directly from the input typeA
+the USB meter and jumper the 5V and ground directly from the input typeB
 socket to the output micro-usb connector.
 
 Sorry about the lack of detail here! I am writing this *after* I finished
@@ -291,7 +288,6 @@ pretty close.
 | 3.5" Touch Screen |  $5.00 |
 | 30 x LED ws2812b strip | $2.00 |
 | 25 x push buttons | $2.50 |
-| mother prototype board | $3.00 |
 | 4 x Rotary Encoder | $4.00 |
 | 4 x 1/4" female jacks | $5.00 |
 | 1/8" female jack | $1.25 |
@@ -304,7 +300,7 @@ pretty close.
 | Wired Dupont Connectors | $4.00 (max) |
 | Other Wire | $1.00 |
 | Solder, etc | $1.50 |
-| **Total** | approx **$88.50** |
+| **Total** | approx **$85.50** |
 
 
 It was my goal to try to keep the cost of the project at, about, or under **$100**.

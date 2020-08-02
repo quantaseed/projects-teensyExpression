@@ -108,12 +108,12 @@ So, apart from this brief introduction, you can find other materials and informa
 subfolders of this repository
 
 * root directory - contains this readme.md file
-* [arduino/](arduino/readme.md) - contains the source code and libraries to build the program
-    * [arduino/libraries](arduino/libraries/readme.md) - mine, and a couple other libraries used in the build
-    * [arduino/teensyExpression](arduino/teensyExpression/readme.md) - the main INO program and additional classes that are specific to the project
-* [fusion/](fusion/readme.md) - contains the STL, fusion 360 files, and notes on how to print and assemble the box
-* [hardware/](hardware/readme.md) - contains the basic schematic, circuit diagrams, and information about the electronics hardware design
-* [ftp/](ftp/readme.md) - contains separate discussions and documents regarding my reverse engineering efforts on the FTP Triple play dongle and controller
+* [arduino/](arduino/) - contains the source code and libraries to build the program
+    * [arduino/libraries](arduino/libraries/) - mine, and a couple other libraries used in the build
+    * [arduino/teensyExpression](arduino/teensyExpression/) - the main INO program and additional classes that are specific to the project
+* [fusion/](fusion/) - contains the STL, fusion 360 files, and notes on how to print and assemble the box
+* [hardware/](hardware/) - contains the basic schematic, circuit diagrams, and information about the electronics hardware design
+* [ftp/](ftp/) - contains separate discussions and documents regarding my reverse engineering efforts on the FTP Triple play dongle and controller
 
 
 # Credits
