@@ -57,7 +57,7 @@ is at the bottom right.
 
 [![button circuit board](../images/teensyExpression10_resized.jpg)](../images/teensyExpression10.jpg)
 
-I cut the 25 wa2812 LED's from an inexpensive light strip that can be had for
+I cut the 25 ws2812 LED's from an inexpensive light strip that can be had for
 as little $2, with shipping, on ebay.
 
 The strip I used has 30 LEDs, with 30mm spacing, and with capacitors on about
