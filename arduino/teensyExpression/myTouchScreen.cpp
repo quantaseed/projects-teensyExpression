@@ -8,7 +8,7 @@
 
 
 myTouchScreen theTouchScreen;
-TouchScreen libraryTouchScreen = TouchScreen(XP, YP, XM, YM);   // , 300);
+TouchScreen libraryTouchScreen = TouchScreen(XP, YP, XM, YM, 300);
 
 
 
